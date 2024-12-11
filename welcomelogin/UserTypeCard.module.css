@@ -1,0 +1,44 @@
+.userTypeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+}
+
+.userType {
+  color: #000;
+  font: 700 40px/1 Inter, sans-serif;
+  margin-bottom: 13px;
+}
+
+.userTypeImage {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.loginButton {
+  border-radius: 6px;
+  background-color: #140c73;
+  min-height: 44px;
+  width: 165px;
+  color: #fff;
+  padding: 12px 16px;
+  font: 32px/1 Abhaya Libre, -apple-system, Roboto, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .userTypeCard {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .loginButton {
+    white-space: normal;
+  }
+}

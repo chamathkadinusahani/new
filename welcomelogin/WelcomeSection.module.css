@@ -1,0 +1,47 @@
+.welcomeSection {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcomeTitle {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.welcomeSubtitle {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.userTypeContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.userTypeCard {
+  text-align: center;
+  width: 200px;
+}
+
+.userTypeImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.userTypeButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(20, 12, 115, 0.96);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 62.5px;
+}
+
+.userTypeButton:hover {
+  background-color: rgb(20, 12, 115, 0.96);
+}
